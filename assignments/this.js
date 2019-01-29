@@ -15,7 +15,7 @@
 
 function greeting() {
     "use strict";
-    console.log(this);
+    return (this);
 }
 
 greeting();
@@ -55,7 +55,7 @@ funcUser(); // Shayaan
 // code example for Explicit Binding
 
 const person = {
-    name: 'Bob'
+    name: 'Shayaan'
 }
 
 const skills = ['HTML', 'CSS', 'JS'];
